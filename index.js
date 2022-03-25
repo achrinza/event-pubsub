@@ -1,5 +1,5 @@
 //shim toallow node and native browser module path support with the same code
-import Is from '../../strong-type/index.js';
+import Is from '../../@achrinza/strong-type/index.js';
 
 const is=new Is;
 
