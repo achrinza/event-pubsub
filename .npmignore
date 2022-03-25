@@ -2,5 +2,7 @@ coverage
 example
 coverage
 test
+.github
+.gitattributes
 .travis.yml
 index.html

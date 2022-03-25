@@ -1,4 +1,4 @@
-import VanillaTest from './node_modules/vanilla-test/index.js';
+import VanillaTest from './node_modules/@node-ipc/vanilla-test/index.js';
 import EventPubSub  from './node_modules/event-pubsub/index.js';
 
 const test=new VanillaTest;
