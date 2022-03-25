@@ -17,7 +17,7 @@
     "test": "npm run emulate && node test/CI.js",
     "coverage": "npm run emulate && c8 -r lcov -r html node test/CI-coverage.js && c8 report",
     "start": "npm run emulate && node-http-server port=8000 verbose=true",
-    "emulate": "npm i && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./example/node_modules/event-pubsub/\" && copyfiles -V \"./node_modules/**/*\" \"./example/\" && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./test/node_modules/event-pubsub/\" && copyfiles -V \"./node_modules/**/*\" \"./test/\""
+    "emulate": "copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./example/node_modules/@achrinza/event-pubsub/\" && copyfiles -V \"./node_modules/**/*\" \"./example/\" && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./test/node_modules/@achrinza/event-pubsub/\" && copyfiles -V \"./node_modules/**/*\" \"./test/\""
   },
   "repository": {
     "type": "git",
