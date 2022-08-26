@@ -44,6 +44,6 @@
     "c8": "^7.6.0"
   },
   "dependencies": {
-    "@achrinza/strong-type": "0.1.7"
+    "@achrinza/strong-type": "0.1.8"
   }
 }
