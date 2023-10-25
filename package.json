@@ -8,7 +8,7 @@
     "example": "example"
   },
   "engines": {
-    "node": "13 || 14 || 16 || 17 || 18 || 19 || 20"
+    "node": "13 || 14 || 16 || 17 || 18 || 19 || 20 || 21"
   },
   "publishConfig": {
     "access": "public"
